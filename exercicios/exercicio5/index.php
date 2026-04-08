@@ -18,12 +18,10 @@ $csv = new CsvExporter("Relatório de Usuários", $headers, $rows);
 $json = new JsonExporter("Relatório de Usuários", $headers, $rows);
 $xml = new XmlExporter("Relatório de Usuários", $headers, $rows);
 
-// Mostrar info
 echo $csv->show() . "<br>";
 echo $json->show() . "<br>";
 echo $xml->show() . "<br>";
 
-// Exportar
 echo "<pre>";
 echo $csv->export() . "<br><br>";
 echo $json->export() . "<br><br>";
