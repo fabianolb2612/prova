@@ -7,7 +7,6 @@ use source\Models\School\Student;
 use source\Models\School\Course;
 use source\Models\School\Enrollment;
 
-
 $t1 = new Teacher(1, "Carlos Silva", "carlos@escola.com", "Programação");
 $t2 = new Teacher(2, "Ana Lima", "ana@escola.com", "Matemática");
 
