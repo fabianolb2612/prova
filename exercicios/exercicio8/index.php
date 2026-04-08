@@ -41,16 +41,14 @@ $loans =
 
 
 
-$loans[0]->returnBook("2025-06-08"); // ok
-$loans[1]->returnBook("2025-06-10"); // atraso
+$loans[0]->returnBook("2025-06-08");
+$loans[1]->returnBook("2025-06-10");
 
 echo $loans[0]->show() . "<br>";
 echo $loans[1]->show() . "<br>";
 echo $loans[2]->show() . "<br>";
 
-// Busca
 $found = $lib->findByTitle("Harry");
 echo $found ? $found->show() : "Não encontrado";
 
-// Mostrar biblioteca depois
 echo "<br>" . $lib->show();
