@@ -10,7 +10,6 @@ $accounts = [
     new BankAccount(2, "Otávio", "0002-3", "4321")
 ];
 
-
 $accounts[0]->deposit(1000);
 $accounts[0]->withdraw(200, "1234");
 $accounts[1]->deposit(1000);
