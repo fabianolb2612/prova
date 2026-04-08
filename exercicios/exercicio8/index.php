@@ -13,7 +13,6 @@ $authors =
     new Author(2, "J.K. Rowling", "Britânica", "1965-07-31", "Criadora de Harry Potter")
 ];
 
-
 $books = 
 [
     new Book(1, "Dom Casmurro", "123", 1899, "Romance", $authors[0]),
@@ -21,7 +20,6 @@ $books =
     new Book(3, "Harry Potter 1", "789", 1997, "Fantasia", $authors[1]),
     new Book(4, "Harry Potter 2", "101", 1998, "Fantasia", $authors[1])
 ];
-
 
 $lib = new Library(1, "Biblioteca Central", "Rua A, 100");
 
