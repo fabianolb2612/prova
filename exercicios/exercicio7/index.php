@@ -20,7 +20,6 @@ $motos = [
 
 $truck = new Truck(5, "Volvo", "FH 460", 2021, "diesel", 120000, "Branco", 15, 6, true);
 
-// Testes
 echo $cars[0]->drive(150) . "<br>";
 echo $motos[0]->wheelie() . "<br>";
 echo $truck->loadCargo(20) . "<br><br>";
