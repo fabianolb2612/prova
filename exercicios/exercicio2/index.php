@@ -6,7 +6,6 @@ use source\Models\Zoo\Mammal;
 use source\Models\Zoo\Bird;
 use source\Models\Zoo\Reptile;
 
-
 $lion = new Mammal(1, "Simba", "Panthera leo", "Savana", 190, 5, "Dourado", 110);
 $dolphin = new Mammal(2, "Flipper", "Delphinus", "Oceano", 150, 8, "Cinza", 365);
 
