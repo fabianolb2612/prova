@@ -15,7 +15,7 @@ $accounts[0]->deposit(1000);
 $accounts[0]->withdraw(200, "1234");
 $accounts[1]->deposit(1000);
 $accounts[1]->withdraw(400, "4321");
-$accounts[0]->withdraw(100, "9999"); // PIN errado
+$accounts[0]->withdraw(100, "9999");
 
 $savings = new SavingsAccount(3, "Carlos", "0003-5", "1111", 0.5);
 $savings->deposit(2000);
