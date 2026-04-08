@@ -23,8 +23,6 @@ $patients =
 $patients[0]->addAllergy("Penicilina");
 $patients[0]->addAllergy("Dipirona");
 
-
-
 echo $patients[0]->hasAllergy("Penicilina") ? "Tem alergia<br>" : "Não tem alergia<br>";
 
 $records =
